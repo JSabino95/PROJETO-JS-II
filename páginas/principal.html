@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .poema {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        .poema p {
+            flex: 0 0 45%;
+            margin: 0; /* Removendo as margens padrão dos parágrafos */
+        }
+
+        /* Ajustando a posição do primeiro parágrafo */
+        .poema p:first-child {
+            text-align: right; /* Alinhando o texto à direita */
+            margin-bottom: 20px; /* Aumentando a margem inferior */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="contato.html">Contato</a> <!-- Link para a página de Contato -->
+        <a href="areaadm.html">Área Admin</a> <!-- Link para a página de Área Admin -->
+    </nav>
+
+    <header>
+        <h1>Página principal</h1>
+    </header>
+
+    <div class="poema">
+        <p>
+            Lorem Ipsum é simplesmente uma simulação<br> 
+			de texto da indústria tipográfica e de impressos,<br> 
+			e vem sendo utilizado desde o século XVI, quando<br> 
+			um impressor desconhecido pegou uma bandeja de tipos<br> 
+			e os embaralhou para fazer um livro de modelos de tipos.
+        </p>
+        <p>
+            Lorem Ipsum é simplesmente uma simulação<br> 
+			de texto da indústria tipográfica e de impressos,<br> 
+			e vem sendo utilizado desde o século XVI, quando<br> 
+			um impressor desconhecido pegou uma bandeja de tipos<br> 
+			e os embaralhou para fazer um livro de modelos de tipos.
+        </p>
+    </div>
+
+    <!-- Outro conteúdo da página aqui -->
+
+</body>
+
+</html>
